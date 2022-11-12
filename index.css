@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+body {
+    background-color: rgb(228, 228, 228);
+    margin: 0;
+    font-family : 'roboto slab';
+}
+
+.navbar {
+    padding: 10px;
+    /* width: 100%; */
+    background-color: rgb(177, 36, 135);
+    color: #0099ff;
+    font-size: 1.3em;
+    display:flex;
+    column-gap: 10px;
+    justify-content:space-between;
+}
+
+span {
+    color: rgb(255, 75, 240);
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgb(183, 0, 255);
+}
+
+.W {
+    width: 35px;
+}
+
+.savings {
+    background-color: rgb(74, 153, 255);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+p {
+    margin: 0;
+}
+
+.savings_header {
+    background-color:blueviolet;
+    border-radius: 7px;
+    border: 2px inset rgb(255, 62, 207);
+    /* margin: 20px; */
+}
+
+.savings_headerp {
+    padding: 5px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.total_savings {
+    width: 40%;
+    height: 90%;
+    border-radius: 7px;
+    /* border: solid black 2px; */
+    border: 2px inset rgb(255, 62, 207);
+    padding: 10px;
+    font-size: 15px;
+    background-color:rgb(183, 0, 255);
+    margin-top: 10px;
+    /* font-weight:bold; */
+}
+
+.total_savings_box {
+    background-color: rgb(238, 236, 236);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 7px 0;
+    height: 10%;
+    font-size: 30px;
+}
+
+.current_savings {
+    width: 40%;
+    height: 90%;
+    border-radius: 7px;
+    /* border: solid black 2px; */
+    border: 2px inset rgb(255, 62, 207);
+    padding: 10px;
+    font-size: 15px;
+    background-color:rgb(183, 0, 255);
+    margin-top: 10px;
+    /* font-weight:bold; */
+}
+
+.current_savings_box {
+    background-color: rgb(238, 236, 236);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 7px 0;
+    height: 10%;
+    font-size: 30px;
+}
+
+.amount {
+    background-color: rgb(74, 153, 255);
+    margin: 0;
+    padding: 5px;
+
+}
+
+.expenses_section {
+    background-color: rgb(130, 255, 58);/* rgb(108, 228, 38);*/
+    margin: 0;
+    padding: 5px;
+}
+
+.expenses {
+    /* background-color:rgb(255, 251, 0); */
+    padding: 20px;
+}
+
+.expenses_header {
+    background-color:blueviolet;
+    border-radius: 7px;
+    border: 2px inset rgb(255, 62, 207);
+    /* margin: 20px; */
+}
+
+.expenses_headerp {
+    padding: 5px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.add_expenses {
+    border: 2px inset rgb(255, 166, 0);
+    background: rgb(215, 255, 39);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 40%;
+    height: 90%;
+}
+
+input {
+    width: 90%;
+    height : 30%;
+}
+
+label {
+    margin: 6px 0;
+}
+
+.listed_exp {
+    font-size: 18px;
+    margin: 7px;
+    border: 2px outset rgb(255, 77, 106);
+    background-color:  blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.expenses_notes {
+    border: 2px inset rgb(255, 166, 0);
+    padding: 3px;
+    border-radius: 8px;
+    background-color:rgb(215, 255, 39);
+    /* display: flex; */
+    /* display : grid;
+    grid-template-columns : repeat(auto-fit, minmax(19rem, 1fr)); */
+}
+
+.note_list {
+    display : grid;
+    grid-template-columns : repeat(auto-fit, minmax(19rem, 1fr));
+}
+
+.note {
+    margin: 5px;
+    border: 2px outset whitesmoke;
+    background-color: rgb(255, 139, 139);
+    border-radius: 7px;
+    padding: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.note_exp_box {
+    width: 80%;
+    height: 20%;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.note_amount_box {
+    width: 80%;
+    height: 20%;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.total_expenses_savings {
+    border: 2px outset violet;
+    margin: 12px;
+    border-radius: 8px;
+    background-color:rgb(121, 101, 177);
+    padding: 8px;
+    width: 50%;
+
+}
+
+.total_expenses_box {
+    width: 40%;
+    height: 20%;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
